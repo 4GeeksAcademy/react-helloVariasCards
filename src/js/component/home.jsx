@@ -4,6 +4,7 @@ import React from "react";
 import rigoImage from "../../img/rigo-baby.jpg";
 import Navbar from "./nav.js";
 import Container from "./container.js";
+import Footer from "./footer.js";
 
 //create your first component
    function Home() {
@@ -11,6 +12,7 @@ import Container from "./container.js";
 		<>
 	<Navbar	/>
 	<Container />
+	<Footer/>
 	</>
 	);
 
